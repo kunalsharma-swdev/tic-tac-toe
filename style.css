@@ -62,3 +62,23 @@ html{
     border-radius: 10px;
     background-color: beige;
 }
+
+.overlay{
+    display: none;
+    position: fixed;
+    inset: 0;
+    backdrop-filter: blur(8px);
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+}
+
+.win{
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: lightcyan;
+    display: none;
+}
